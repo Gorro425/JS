@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="controls">
+        <div class="palette">
+            <button class="color-btn" style="background-color: #FF5733;"></button>
+            <button class="color-btn" style="background-color: #33FF57;"></button>
+            <button class="color-btn" style="background-color: #3357FF;"></button>
+            <button class="color-btn" style="background-color: #FF33A8;"></button>
+            <button class="color-btn" style="background-color: #33FFF3;"></button>
+            <button class="color-btn" style="background-color: #FFA533;"></button>
+            <button class="color-btn" style="background-color: #FF3333;"></button>
+            <button class="color-btn" style="background-color: #57FF33;"></button>
+            <button class="color-btn" style="background-color: #5733FF;"></button>
+            <button class="color-btn" style="background-color: #FFF533;"></button>
+        </div>
+        <label for="brush-size">Brush Size:</label>
+        <input type="range" id="brush-size" min="1" max="20" value="5">
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="index.js"></script>
+</body>
+</html>
